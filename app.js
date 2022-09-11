@@ -34,7 +34,7 @@ const User = mongoose.model(
 );
 
 const app = express();
-
+//sets
 app.set("views", __dirname);
 app.set("view engine", "ejs");
 
